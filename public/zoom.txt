@@ -1,0 +1,158 @@
+/*
+      if (useZoom) {
+        const zoom = d3.zoom().on("zoom", (e) => {
+          g.attr("transform", e.transform);
+        });
+
+        svg
+          .call(zoom)
+          .call(zoom.transform, d3.zoomIdentity)
+          .on("dblclick.zoom", null);
+
+        const zoomButtons = svg.append("g").attr("id", "zoom-buttons");
+
+        // Zoom In
+
+        const zoomIn = zoomButtons
+          .append("g")
+          .attr("id", "zoom-in")
+          .style("cursor", "pointer")
+          .on("mouseover", () => {
+            d3.select("#zoom-in-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#dcdcdc");
+          })
+          .on("mouseout", () => {
+            d3.select("#zoom-in-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#ffffff");
+          })
+          .on("click", (e) => {
+            const transform = g.attr("transform") || "scale(1)";
+            const r1 = /scale\((\d+(.\d+){0,1})\)/g;
+            const scale = parseFloat(
+              transform.match(r1)[0].replace("scale(", "").replace(")", "")
+            );
+
+            svg
+              .transition()
+              .duration(300)
+              .call(zoom.scaleTo, Math.min(scale * 1.5, 3));
+          });
+
+        zoomIn
+          .append("rect")
+          .attr("id", "zoom-in-button")
+          .attr("x", 80 - 7.5)
+          .attr("y", -50 + 7.5)
+          .attr("width", 5)
+          .attr("height", 5)
+          .attr("stroke", "#dcdcdc")
+          .attr("stroke-width", 0.5)
+          .attr("fill", "#ffffff");
+
+        zoomIn
+          .append("text")
+          .attr("id", "zoom-in-text")
+          .text("+")
+          .attr("x", 80 - 6.25)
+          .attr("y", -50 + 11.25)
+          .style("font-size", "4px");
+
+        // Zoom Out
+
+        const zoomOut = zoomButtons
+          .append("g")
+          .attr("id", "zoom-out")
+          .style("cursor", "pointer")
+          .on("mouseover", () => {
+            d3.select("#zoom-out-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#dcdcdc");
+          })
+          .on("mouseout", () => {
+            d3.select("#zoom-out-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#ffffff");
+          })
+          .on("click", (e) => {
+            const transform = g.attr("transform") || "scale(1)";
+            const r1 = /scale\((\d+(.\d+){0,1})\)/g;
+            const scale = parseFloat(
+              transform.match(r1)[0].replace("scale(", "").replace(")", "")
+            );
+
+            svg
+              .transition()
+              .duration(300)
+              .call(zoom.scaleTo, Math.max(0.5, scale - 0.5));
+          });
+
+        zoomOut
+          .append("rect")
+          .attr("id", "zoom-out-button")
+          .attr("x", 80 - 7.5)
+          .attr("y", -50 + 7.5 + 5)
+          .attr("width", 5)
+          .attr("height", 5)
+          .attr("stroke", "#dcdcdc")
+          .attr("stroke-width", 0.5)
+          .attr("fill", "#ffffff");
+
+        zoomOut
+          .append("text")
+          .attr("id", "zoom-out-text")
+          .text("-")
+          .attr("x", 80 - 5.8)
+          .attr("y", -50 + 11.25 + 5)
+          .style("font-size", "4px");
+
+        // Reset
+
+        const zoomReset = zoomButtons
+          .append("g")
+          .attr("id", "zoom-reset")
+          .style("cursor", "pointer")
+          .on("mouseover", () => {
+            d3.select("#zoom-reset-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#dcdcdc");
+          })
+          .on("mouseout", () => {
+            d3.select("#zoom-reset-button")
+              .transition()
+              .duration(100)
+              .attr("fill", "#ffffff");
+          })
+          .on("click", (e) => {
+            svg
+              .transition()
+              .duration(300)
+              .call(zoom.transform, d3.zoomIdentity);
+          });
+
+        zoomReset
+          .append("rect")
+          .attr("id", "zoom-reset-button")
+          .attr("x", 80 - 7.5)
+          .attr("y", -50 + 7.5 + 5 + 5)
+          .attr("width", 5)
+          .attr("height", 5)
+          .attr("stroke", "#dcdcdc")
+          .attr("stroke-width", 0.5)
+          .attr("fill", "#ffffff");
+
+        zoomReset
+          .append("text")
+          .attr("id", "zoom-reset-text")
+          .text("R")
+          .attr("x", 80 - 6.2)
+          .attr("y", -50 + 11.25 + 5 + 5)
+          .style("font-size", "3px");
+      }
+      */

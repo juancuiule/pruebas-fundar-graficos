@@ -1,0 +1,60 @@
+,source,target,weight,coincidences,letterIndex,letter,id
+0,ruleta,celular,5,['r' 'u' 'l' 'e' 'a'],0,r,0
+1,ruleta,satelite,4,['l' 'e' 't' 'a'],0,l,1
+2,ruleta,aceite,3,['e' 't' 'a'],0,e,2
+3,ruleta,tela,4,['l' 'e' 't' 'a'],0,l,3
+4,ruleta,sal,2,['l' 'a'],0,l,4
+5,ruleta,cal,2,['l' 'a'],0,l,5
+6,celular,satelite,3,['e' 'l' 'a'],0,e,6
+7,celular,aceite,3,['c' 'e' 'a'],0,c,7
+8,celular,tela,3,['e' 'l' 'a'],0,e,8
+9,celular,sal,2,['l' 'a'],0,l,9
+10,celular,cal,3,['c' 'l' 'a'],0,c,10
+11,satelite,aceite,4,['a' 't' 'e' 'i'],0,a,11
+12,satelite,tela,4,['a' 't' 'e' 'l'],0,a,12
+13,satelite,sal,3,['s' 'a' 'l'],0,s,13
+14,satelite,cal,2,['a' 'l'],0,a,14
+15,aceite,tela,3,['a' 'e' 't'],0,a,15
+16,aceite,sal,1,['a'],0,a,16
+17,aceite,cal,2,['a' 'c'],0,a,17
+18,tela,sal,2,['l' 'a'],0,l,18
+19,tela,cal,2,['l' 'a'],0,l,19
+20,sal,cal,2,['a' 'l'],0,a,20
+0,ruleta,celular,5,['r' 'u' 'l' 'e' 'a'],1,u,21
+0,ruleta,celular,5,['r' 'u' 'l' 'e' 'a'],2,l,22
+0,ruleta,celular,5,['r' 'u' 'l' 'e' 'a'],3,e,23
+0,ruleta,celular,5,['r' 'u' 'l' 'e' 'a'],4,a,24
+1,ruleta,satelite,4,['l' 'e' 't' 'a'],1,e,25
+1,ruleta,satelite,4,['l' 'e' 't' 'a'],2,t,26
+1,ruleta,satelite,4,['l' 'e' 't' 'a'],3,a,27
+2,ruleta,aceite,3,['e' 't' 'a'],1,t,28
+2,ruleta,aceite,3,['e' 't' 'a'],2,a,29
+3,ruleta,tela,4,['l' 'e' 't' 'a'],1,e,30
+3,ruleta,tela,4,['l' 'e' 't' 'a'],2,t,31
+3,ruleta,tela,4,['l' 'e' 't' 'a'],3,a,32
+4,ruleta,sal,2,['l' 'a'],1,a,33
+5,ruleta,cal,2,['l' 'a'],1,a,34
+6,celular,satelite,3,['e' 'l' 'a'],1,l,35
+6,celular,satelite,3,['e' 'l' 'a'],2,a,36
+7,celular,aceite,3,['c' 'e' 'a'],1,e,37
+7,celular,aceite,3,['c' 'e' 'a'],2,a,38
+8,celular,tela,3,['e' 'l' 'a'],1,l,39
+8,celular,tela,3,['e' 'l' 'a'],2,a,40
+9,celular,sal,2,['l' 'a'],1,a,41
+10,celular,cal,3,['c' 'l' 'a'],1,l,42
+10,celular,cal,3,['c' 'l' 'a'],2,a,43
+11,satelite,aceite,4,['a' 't' 'e' 'i'],1,t,44
+11,satelite,aceite,4,['a' 't' 'e' 'i'],2,e,45
+11,satelite,aceite,4,['a' 't' 'e' 'i'],3,i,46
+12,satelite,tela,4,['a' 't' 'e' 'l'],1,t,47
+12,satelite,tela,4,['a' 't' 'e' 'l'],2,e,48
+12,satelite,tela,4,['a' 't' 'e' 'l'],3,l,49
+13,satelite,sal,3,['s' 'a' 'l'],1,a,50
+13,satelite,sal,3,['s' 'a' 'l'],2,l,51
+14,satelite,cal,2,['a' 'l'],1,l,52
+15,aceite,tela,3,['a' 'e' 't'],1,e,53
+15,aceite,tela,3,['a' 'e' 't'],2,t,54
+17,aceite,cal,2,['a' 'c'],1,c,55
+18,tela,sal,2,['l' 'a'],1,a,56
+19,tela,cal,2,['l' 'a'],1,a,57
+20,sal,cal,2,['a' 'l'],1,l,58
